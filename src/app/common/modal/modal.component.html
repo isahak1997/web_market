@@ -1,0 +1,12 @@
+<div id="modal" class="container">
+
+  <mat-dialog-actions >
+    <button mat-button mat-dialog-close>Close</button>
+  </mat-dialog-actions>
+  <div mat-dialog-title align="center">{{modalTitle}}</div>
+
+  <mat-dialog-content class="mat-typography" style="border: 1px double darkseagreen">
+    <div [innerHtml]="content"></div>
+  </mat-dialog-content>
+
+</div>

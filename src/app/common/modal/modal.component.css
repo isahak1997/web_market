@@ -1,0 +1,9 @@
+#modal {
+  min-width: 128px;
+  min-height:220px;
+}
+
+mat-dialog-actions{
+  bottom: 80%;
+  float: right;
+}

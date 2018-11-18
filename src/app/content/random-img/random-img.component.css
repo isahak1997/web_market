@@ -1,0 +1,9 @@
+.shop,
+.desc {
+  margin: 2px;
+}
+
+.card {
+  min-width: 284px;
+  min-height: 157px;
+}
